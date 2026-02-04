@@ -1,0 +1,43 @@
+.authors-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.author-card{
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.author-card > img{
+    width: 100%;
+}
+
+.biblio-layout > nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:whitesmoke;
+    box-shadow: 1px 1px 3px gray;
+    margin: 5px;
+}
+
+.biblio-layout > nav > * {
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+.biblio-layout > nav > *:hover {
+    color: blue;
+}
+
+.biblio-layout > div{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
+}

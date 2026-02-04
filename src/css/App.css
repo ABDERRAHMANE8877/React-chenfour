@@ -1,0 +1,64 @@
+.header{
+  background-color: #222222;
+  color: white;
+  font-family: 'Segeo UI';
+}
+
+.header img{
+  width:40px;
+  height:40px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.text-field{
+  display: flex;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.text-field > label{
+  min-width : 150px;
+  margin : 5px;
+}
+
+.button-panel{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Segoe UI';
+}
+
+.button-panel > button{
+  min-width: 120px;
+  padding: 5px;
+  margin: 5px;
+  background-color: navy;
+  border-color: navy;
+  color: white;
+}
+
+.button-panel > button:hover{
+  background-color: white;
+  color: navy;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.day-of-week > button{
+  background-color: green;
+  border-color: green;
+  color: white;
+  padding: 5px 0px;
+  width: 10%;
+}
+
+.day-of-week > button:hover{
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  color: green;
+}
+
+.day-of-week{
+  margin-left: 5px;
+}

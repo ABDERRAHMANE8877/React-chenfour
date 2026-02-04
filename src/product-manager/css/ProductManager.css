@@ -1,0 +1,40 @@
+.data-grid > table{
+    width : 80%;
+    margin-block: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 5px gray;
+    border-collapse: collapse;
+}
+
+.data-grid > table th{
+    background-color: beige;
+    border-bottom: 1px solid gray;
+}
+
+.data-grid > table td{
+    text-align: center;
+    padding: 3px;
+    border-bottom: 1px solid lightgray;
+}
+
+.new-product{
+    margin-block: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}
+
+.new-product > fieldset > div{
+    display: flex;
+    margin:  5px ;
+}
+
+.new-product > fieldset > div > label{
+    min-width : 150px;
+    padding : 5px;
+}
+
+.new-product > div{
+    text-align: center  ;
+}

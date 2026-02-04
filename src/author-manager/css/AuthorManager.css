@@ -1,0 +1,15 @@
+.authors-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.author-card{
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.author-card > img{
+    width: 100%;
+}

@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './css/App.css';
+import Headers from './components/Header';
+import TextField from './components/TextField';
+import React from 'react';
+import ButtonPanel from './components/ButtonPanel'
+import DayOfWeek from './components/DayOfWeek';
+import Timer from './components/Timer';
+import AuthorManager from './author-manager/AuthorManager';
 function App() {
+  let version = React.version;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div >
+      <Headers title="Introduction à React sous Node.js" version={version} />
+      <TextField label="Nom" size="30" />
+      <TextField label="Prénom" size="30" />
+      <TextField label="Adresse" size="50" />
+      <ButtonPanel labels={['OK','Annuler','Imprimer']} />
+      <DayOfWeek />
+      <Timer />
+      <AuthorManager />
+    </div>  
   );
 }
 

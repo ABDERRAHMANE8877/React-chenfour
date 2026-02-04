@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(255, 123, 123);
+    padding: 1rem 0rem;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
